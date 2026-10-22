@@ -1,0 +1,15 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Death Backup -> Config",
+	"Enable Death Backup": {
+		"//": "Whether Death Backup is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"sendBackupReminderMessageToThoseWithAccessOnDeath": {
+		"//": "When enabled, sends a message to a player when they die and have cheat-access that a backup has been created and can be loaded.",
+		"value": true
+	},
+	"backupReminderMessage": {
+		"//": "The message sent to players with cheat-access when 'sendBackupReminderMessageToThoseWithAccessOnDeath' is enabled.",
+		"value": "A backup of your inventory before your death has been created and can be loaded with '/deathbackup load 0'."
+	}
+}

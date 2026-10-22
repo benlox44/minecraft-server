@@ -1,0 +1,133 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
+WeedPulse:  # Green/purple pulse for "HIGHCR A FT"
+  change-interval: 200
+  texts:
+  - '&2HIGHICRAFT'  # Calm base
+  - '&2&lH&2IGHICRAFT'
+  - '&2H&2&lI&2GHICRAFT'
+  - '&2HI&2&lG&2HICRAFT'
+  - '&2HIG&2&lH&2ICRAFT'
+  - '&2HIGH&2&lI&2CRAFT'
+  - '&2HIGHI&2&lC&2RAFT'
+  - '&2HIGHIC&2&lR&2AFT'
+  - '&2HIGHICR&2&lA&2FT'
+  - '&2HIGHICRA&2&lF&2T'
+  - '&2HIGHICRAF&2&lT'
+  - '&2HIGHICRA&2&lF&2T'
+  - '&2HIGHICR&2&lA&2FT'
+  - '&2HIGHIC&2&lR&2AFT'
+  - '&2HIGHI&2&lC&2RAFT'
+  - '&2HIGH&2&lI&2CRAFT'
+  - '&2HIG&2&lH&2ICRAFT'
+  - '&2HI&2&lG&2HICRAFT'
+  - '&2H&2&lI&2GHICRAFT'
+  - '&2&lH&2IGHICRAFT'
