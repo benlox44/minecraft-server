@@ -1,0 +1,46 @@
+name: minecraft
+services:
+  minecraft:
+    container_name: minecraft
+    image: itzg/minecraft-server:latest
+    init: true
+    stop_grace_period: 5m
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "24454:24454/udp"
+      - "8100:8080"
+    environment:
+      EULA: "TRUE"
+      TYPE: FABRIC
+      JAVA_VERSION: 25
+      VERSION: "26.3"
+      MEMORY: "4G"
+      MAX_PLAYERS: "10"
+      ENABLE_AUTOPAUSE: "false"
+      PAUSE_WHEN_EMPTY_SECONDS: "60"
+      MAX_TICK_TIME: "-1"
+      MOTD: "§r           §f§lSurvival§f §oForever World§f  [26.3]§r\n§f§l              Network: §9§n§olacto.vip"
+      TZ: ${TZ:-America/Santiago}
+      DIFFICULTY: "3"
+      FORCE_GAMEMODE: "true"
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: "100"
+      SIMULATION_DISTANCE: "6"
+      VIEW_DISTANCE: "7"
+      USE_AIKAR_FLAGS: "true"
+      ENABLE_WHITELIST: "true"
+    volumes:
+      - "./data:/data"
+
+  audioplayer:
+    build: ./audioplayer
+    container_name: audioplayer
+    stop_grace_period: 2m
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./data/audioplayer_uploads:/data/audioplayer_uploads"
+      - "./data/world/audio_player_data:/data/world/audio_player_data:ro"
