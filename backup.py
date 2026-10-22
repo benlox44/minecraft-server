@@ -77,11 +77,18 @@ def main():
         ".cache",
         "crash-reports",
         "squaremap",
+        "tmp",
+        "/XF",
+        "*.tmp",
+        "*.lock",
+        "*.lck",
     ]
     res = subprocess.run(args)
-    if res.returncode >= 8:
-        print(f"[ERROR] Robocopy failed with exit code {res.returncode}")
+    if res.returncode >= 16:
+        print(f"[FATAL] Robocopy failed with exit code {res.returncode}")
         sys.exit(1)
+    elif res.returncode >= 8:
+        print(f"[WARN] Robocopy finished with non-fatal file warnings (exit code {res.returncode})")
 
     # Also copy docker-compose.yml and .env
     shutil.copy2(ROOT / "docker-compose.yml", target_dir / "docker-compose.yml")
