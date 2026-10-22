@@ -1,0 +1,54 @@
+# Environment & credentials
+.env
+*.env
+*.enc
+
+# Backups & old files
+*.old
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Logs & temp files
+*.log
+logs/
+crash-reports/
+
+# Minecraft Server Runtime & State
+data/world/
+data/logs/
+data/crash-reports/
+data/cache/
+data/.cache/
+data/.fabric/
+data/.lss/
+data/libraries/
+data/versions/
+data/stackdeobf_mappings/
+data/journeymap/
+data/audioplayer_uploads/
+data/mods/
+data/sdlinkstorage/
+data/usercache.json
+data/*.jar
+data/*.log
+data/.rcon-cli.*
+data/.fabric-manifest.json
+data/.install-fabric.env
+data/.paused
+
+# Mod caches & generated data
+data/squaremap/web/
+data/squaremap/data/
+data/config/spark/tmp/
+data/config/tab/skincache.yml
+
+# OS metadata
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
