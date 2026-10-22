@@ -101,7 +101,7 @@ def main():
     print("[*] Cleaning up old backups...")
     all_backups = sorted(
         [d for d in dest_root.iterdir() if d.is_dir() and is_backup_dir(d.name)],
-        key=lambda x: x.stat().st_mtime,
+        key=lambda x: x.name,
         reverse=True,
     )
     for old in all_backups[BACKUP_RETENTION:]:
