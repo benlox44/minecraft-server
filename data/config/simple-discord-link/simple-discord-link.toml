@@ -143,17 +143,17 @@
 	#How messages relayed from discord that are replies to other messages are formatted. Supports MiniMessage formatting
 	mcReplyFormatting = "    <b>┌────<reset> %color%@%replier_name%%end_color% <gray>%message_summary%<newline><reset>"
 	#Server Starting Message
-	serverStarting = "*INICIANDO SERVIDOR...*"
+	serverStarting = "*STARTING SERVER...*"
 	#Server Started Message
-	serverStarted = "*SERVIDOR ABIERTO!*"
+	serverStarted = "*SERVER ONLINE!*"
 	#Server Stopping Message
-	serverStopping = "*CERRANDO SERVIDOR...*"
+	serverStopping = "*STOPPING SERVER...*"
 	#Server Stopped Message
-	serverStopped = "*SERVER CERRADO*"
+	serverStopped = "*SERVER OFFLINE*"
 	#Player Joined Message. Use %player% to display the player name
-	playerJoined = "*%player% entró al servidor*"
+	playerJoined = "*%player% joined the server*"
 	#Player Left Message. Use %player% to display the player name
-	playerLeft = "*%player% salió del servidor*"
+	playerLeft = "*%player% left the server*"
 	#Advancement Messages. Available variables: %player%, %title%, %description%
 	advancements = "*%player% - [%title%]: %description%*"
 	#Chat Messages. THIS DOES NOT APPLY TO EMBED OR WEBHOOK MESSAGES. Available variables: %player%, %message%, %mcname%
@@ -161,9 +161,9 @@
 	#Death Messages. Available variables: %player%, %message%
 	death = "%player% %message%"
 	#Message to be sent when a player is added to the whitelist
-	whitelistAdded = "%player% fue agregado a la lista"
+	whitelistAdded = "%player% was added to the whitelist"
 	#Message to be sent when a player is removed from the whitelist
-	whitelistRemoved = "%player% fue sacado de la lista"
+	whitelistRemoved = "%player% was removed from the whitelist"
 	#Command Messages. Available variables: %player%, %command%
 	commands = "%player% **executed command**: *%command%*"
 
